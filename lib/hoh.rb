@@ -33,10 +33,17 @@
 def naming_system
   Kingdom = {
     :Phylum => {
-      :Class => {}
-      :Order => {}
-    }
-  }
+      :Class => {
+        :Order => {
+          :Family => {
+            :Genus => {
+              :Species => nil
+            }
+          }
+        }
+      }
+     }
+   }
   # Remember:
   #  Kingdom
   #  Phylum
